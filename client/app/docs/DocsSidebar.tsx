@@ -90,19 +90,19 @@ export default function DocsSidebar() {
     };
 
     return (
-        <aside className="w-64 bg-white sticky h-fit inset-y-0 border-r border-gray-200 hidden md:block">
+        <aside className="w-64 bg-white sticky h-fit inset-y-0 border-r border-gray-200 hidden md:block pt-16">
             <div className="flex items-center justify-between h-16 px-4 border-b">
                 <div className="flex items-center">
                     <div className="h-8 w-8 rounded-md bg-gradient-to-r from-[#0056E0] to-[#00E5BF] mr-2"></div>
                     <span className="font-bold text-lg">EduStake Docs</span>
                 </div>
-                <Button variant="ghost" size="sm" onClick={toggleDarkMode} className="h-8 w-8 p-0">
+                {/* <Button variant="ghost" size="sm" onClick={toggleDarkMode} className="h-8 w-8 p-0">
                     {darkMode ? (
                         <Sun className="h-4 w-4" />
                     ) : (
                         <Moon className="h-4 w-4" />
                     )}
-                </Button>
+                </Button> */}
             </div>
 
             <div className="p-4">

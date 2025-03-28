@@ -115,9 +115,11 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                                 <h2 className="text-xl font-bold">Menu</h2>
                                 <button
                                     type="button"
-                                    onClick={onClose}
-                                    className="p-2 rounded-full hover:bg-white/10 text-white transition-colors"
-                                    aria-label="Close menu"
+                                    onClick={() => {
+                                        console.log("Close button clicked");
+                                        onClose();
+                                    }}
+                                    className="p-2 rounded-full hover:bg-white/10 text-white"
                                 >
                                     <X className="h-6 w-6" />
                                 </button>
