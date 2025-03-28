@@ -67,7 +67,7 @@ export default function Sidebar() {
 
     // Wallet connection info
     const [isWalletConnected, setIsWalletConnected] = useState(true);
-    const walletAddress = "0x71C...8a4E";
+    const walletAddress = "0x7a...5e3b";
 
     return (
         <div
